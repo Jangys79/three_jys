@@ -1,0 +1,1007 @@
+@charset "utf-8";
+
+
+/*메인 css*/
+
+/*스타일*/
+
+main{width: 100%; height: auto;
+      background-color: #333333;
+      overflow: hidden;}
+
+
+
+@keyframes h_logo{
+0%{ opacity: 1; transform: scale(3);}
+25%{ opacity: 1; transform: scale(3);}
+50%{ opacity: 0; transform: scale(5);}
+75%{ opacity: 1; transform: scale(3);}
+100%{ opacity: 1; transform: scale(3);}
+}
+
+
+
+.main_warp{width: 100%; height: 100vh;
+      background-image: url(../img/Honda_pic/b_M_section_pc1.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+}
+.h_logo{width: 100%; height: 100%;
+      object-fit: contain;
+      animation-name: h_logo;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+}
+
+
+
+.f_M_section_motp{width: 100%; height: 100vh;
+                  position: absolute;
+                  top: 0; left: 0;
+                  
+                  }
+                  
+.f_M_section_motp img{width: 100%; height: 100%;
+                  object-fit: cover;
+                  overflow: hidden;
+                  }
+
+
+
+
+.cover{width: 100%; height: 100vh;
+      }
+.cover_world{width: 100%; height: 50vh;
+            margin-top: 10%;   
+            position: relative;
+            z-index: 999;
+            object-fit: cover;
+            }
+
+.cover_btn{width: 80px; height: 30px;
+            background-color: #ED1C24;
+            position: absolute;
+            top: 55%; left: 10%;
+            border-radius: 10px;}
+.cover_btn h4{text-align: center;
+            font-size: 15px;
+            line-height:30px;
+            color: #D3D3D3;
+            transition: 2s;}
+.cover_btn h4:hover{color: #333333;}
+
+
+.cover_world img{width: 100%; height: auto;
+                  background-size: cover;
+                 }
+
+.cover_world_W{width: 300px; height: auto;
+              color: #333333;
+              text-align: right;
+              margin-right: 20px;
+              position: absolute;
+              right: 0; top: 20%;
+            }
+              
+.cover_world_W h2{position: absolute;
+                  top: 100px; right: 0;
+                  font-weight: 900;
+                  color: #333333;
+                  margin-bottom: 50px;}
+.cover_world_W p{position: absolute;
+                  top: 150px;
+                  color: #333333;
+                  font-size: 15px;
+            font-weight: 700;}
+.cover_world_W p span{font-weight:900;
+                        color: #333333;}
+.cover_happy{width: 100%; height: 40vh;
+            position: relative;
+            z-index: 999;
+            }
+.cover_happy img{width: 100%; height: 100%;
+                  object-fit: cover;
+                 }
+.cover_happy_W{width: 300px; height: auto;
+              color: #333333;
+              text-align: left;
+              margin-left: 20px;
+              position: absolute;
+              left: 0; top:  30%;}
+.cover_happy_W h2{position: absolute;
+                  top: 100px; left: 0;
+                  font-weight: 900;}
+.cover_happy_W p{position: absolute;
+                  top: 150px;
+                  font-size: 15px;}
+.cover_happy_W p span{font-weight: 700;} 
+
+.cover_happy .cover_btn{width: 80px; height: 30px;
+      background-color: #ED1C24;
+      position: absolute;
+      top: 73%; left: 75%;
+      border-radius: 10px;}
+.cover_happy .cover_btn h4{text-align: center;
+      font-size: 15px;
+      line-height:30px;
+      color: #D3D3D3;
+      transition: 2s;}
+.cover_happy .cover_btn h4:hover{color: #333333;}
+.cover_pc{display: none;}            
+
+.box1{width: 100%; height: 100vh;}
+
+.CUB{width: 100%; height: 100vh;
+    position: relative;
+    }
+.CUB h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;}
+.CUB p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;}
+.CUB p span{font-weight: 900;}   
+.CUB .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.CUB img{width: 100%; height: 100%;
+      object-fit: cover;
+      }
+
+.Sports{width: 100%; height: 100vh;
+    position: relative;
+    background-color: #D3D3D3;
+    }
+.Sports h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;
+      color: #333333;}
+.Sports p{ color: #333333;
+      width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;}    
+.Sports p span{font-weight: 900;
+      color: #333;}
+.Sports .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Sports img{width: 100%; height: 100%;
+            object-fit: cover;}
+.Sports .sw_W p{color: #D3D3D3;}
+.swiper-slide p{color: #D3D3D3;}
+
+.Tourer{width: 100%; height:100vh;
+    position: relative;
+    }
+.Tourer h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;}
+.Tourer p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;}
+.Tourer p span{font-weight: 900;}    
+.Tourer .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Tourer img{width: 100%; height: 100%;
+            object-fit: cover;}
+
+.Cruiser{width: 100%; height:100vh;
+    position: relative;
+    background-color: #D3D3D3;
+    }
+.Cruiser h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;
+      color: #333333;}
+.Cruiser p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;
+      color: #333333;}   
+.Cruiser p span{font-weight: 900;
+      color: #333333;}
+.Cruiser .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Cruiser img{width: 100%; height: 100%;
+            object-fit: cover;}
+
+.Cruiser .sw_W p{color: #D3D3D3;}
+
+.Adventure{width: 100%; height: 100vh;
+    position: relative;
+    }
+.Adventure h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;}
+.Adventure p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;} 
+.Adventure p span{font-weight: 900;}   
+.Adventure .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Adventure img{width: 100%; height: 100%;
+            object-fit: cover;}
+
+.Scooter{width: 100%; height: 100vh;
+      position: relative;
+      background-color: #D3D3D3;
+      }
+.Scooter h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;
+      color: #333333;}
+.Scooter p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;
+      color: #333333;}  
+.Scooter p span{font-weight: 900;
+                  color: #333333;}  
+.Scooter .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Scooter img{width: 100%; height: 100%;
+             object-fit: cover;}
+.Scooter .sw_W p{color: #D3D3D3;}
+.Naked{width: 100%; height: 100vh;
+    position: relative;
+    }
+.Naked h1{position: absolute;
+      top: 60px; left: 10px;
+      font-size: 50px;}
+.Naked p{width: 90%;
+      position: absolute;
+      top: 19%; left: 10px;
+      font-size: 15px;}  
+.Naked p span{font-weight: 900;}  
+.Naked .swiper{position: absolute;
+            top: 40%; left: 50%;
+            transform: translateX(-50%);}
+.Naked img{width: 100%; height: 100%;
+      object-fit: cover;}
+
+.swiper {
+    width: 95%;
+    height: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.sw_B{width: 100%; height: 100px;
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      bottom: 0; left: 0;}
+
+.sw_W{width: 90%; height: auto;
+      position: absolute;
+      bottom: 50%;
+      left: 2%;
+      background-color: #333;}
+
+.sw_W h3{position: absolute;
+      bottom: 20%; left: 2%;
+      font-size: 2.5vw;
+      margin-bottom: 10px;
+      
+      }
+.sw_W p{font-size: 2vw;
+      text-align: left;}
+
+.sw_3D{width: 120px; height: 40px;
+      background-color: #ED1C24;
+      line-height: 25px;
+      position: absolute; top: 0; right: 0;
+      }
+.sw_3D p{font-size: 20px;font-weight: 900; 
+      transition: 2s;}
+.sw_3D p:hover{color: #4B2E2A;}
+
+/*   푸터   */
+
+footer{
+      width: 90%; height: 300px;
+      background-color: #D3D3D3; 
+      padding: 20px; display: flex; 
+      flex-wrap: wrap; gap: 20px;
+      color: #333333;
+      z-index: 999;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0.8;
+      }
+
+.foot_p{width: 120px; height: auto;
+      position: absolute;
+      left: 0; top: 5%;
+      text-align: center;
+      }
+
+.foot_p h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            font-weight: 900;
+            margin-left: 30px;
+           }
+
+.foot_p h4 img{margin-right: 10px;
+            width: 40px; height: auto;}
+.foot_p li{color: #333333;
+            font-size: 12px;
+           
+            margin-bottom: 10px;}
+
+.foot_c{width: 120px; height: auto;
+      position: absolute;
+      left: 110px; top: 5%;
+      text-align: center;
+      }
+.foot_c h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-weight: 900;
+            }
+
+.foot_c p{color: #333333;
+            font-size: 13px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            }
+
+
+.logo_F{width: 20%; height: auto;
+      position: absolute;
+      top: 200px; left: 300px;
+      opacity: 0.2;}
+
+.foot_s{width: 120px; height: auto;
+            position: absolute;
+            top: 5%; right: 0;
+            right: 0;
+            text-align: center;}
+      
+.foot_s h4{font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            font-weight: 900;}
+.foot_s a{color: #333333;
+            font-size: 12px;
+            margin-bottom: 10px;
+            font-weight: 800;}
+.foot_copy{width: 50%;
+            position: absolute;
+            bottom: 0; left: 70%;
+            transform: translateX(-50%);}
+.foot_copy h5{
+            font-size: 12px; color: #333333;
+            opacity: 0.8;}         
+
+/* 태블릿 */
+@media all and (min-width: 768px) {
+
+.cover{display: block;}
+.cover_pc{display: none;}
+
+.M_section{width: 100%; height: 100vh;
+      }
+
+.cover{width: 100%; height: 100vh;
+      }
+.cover_world{width: 100%; height: 40vh;
+      margin-bottom: 5%;     
+      position: relative;
+      }
+
+.cover_btn{width: 120px; height: 50px;
+            background-color: #ED1C24;
+            position: absolute;
+            top: 80%; left: 10%;
+            border-radius: 10px;}
+.cover_btn h4{text-align: center;
+            font-size:18px;
+            line-height:50px;transition: 2s;}
+.cover_btn h4:hover{color: #333333;}
+
+.cover_world img{width: 100%; height: auto;
+                   background-size: cover;
+                   }
+
+.cover_world_W{width: 300px; height: auto;
+        color: #333333;
+        text-align: right;
+        margin-right: 20px;
+        position: absolute;
+        right: 0; top: 45%;}
+.cover_world_W h2{position: absolute;
+            top: 100px; right: 0;
+            margin-bottom: 50px;}
+.cover_world_W p{position: absolute;
+            top: 150px;}
+
+.cover_happy{width: 100%; height: 50vh;
+      position: relative;
+      }
+.cover_happy img{width: 100%; height: 100%;
+            object-fit: cover;}
+.cover_happy_W{width: 300px; height: auto;
+        color: #333333;
+        text-align: left;
+        margin-left: 20px;
+        position: absolute;
+        left: 0; top:  40%;}
+.cover_happy_W h2{position: absolute;
+            top: 100px; left: 0;}
+.cover_happy_W p{position: absolute;
+            top: 150px;} 
+
+.cover_happy .cover_btn{width: 120px; height: 50px;
+                        background-color: #ED1C24;
+                        position: absolute;
+                        top: 75%; left: 75%;
+                        border-radius: 10px;}
+.cover_happy .cover_btn h4{text-align: center;
+                        font-size:18px;
+                        line-height:50px;
+                        color: #D3D3D3;
+                        transition: 2s;}      
+.cover_happy .cover_btn h4:hover{color: #333333;}
+
+.cover_pc{display: none;}            
+
+.box1{width: 100%; height: 100vh;}
+
+.CUB{width: 100%; height: 100vh;
+      position: relative;
+      }
+.CUB h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.CUB p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.CUB .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+/* .CUB img{width: 150%; height: 100%;} */
+
+.Sports{width: 100%; height: 100vh;
+position: relative;
+}
+.Sports h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Sports p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Sports .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+/* .Sports img{width: 190%; height: 100%;} */
+
+.Cruiser{width: 100%; height:100vh;
+position: relative;
+}
+.Cruiser h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Cruiser p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Cruiser .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+
+.Adventure{width: 100%; height: 100vh;
+position: relative;
+}
+.Adventure h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Adventure p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Adventure .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+
+.Tourer{width: 100%; height:100vh;
+position: relative;
+}
+.Tourer h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Tourer p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Tourer .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+
+.Scooter{width: 100%; height: 100vh;
+position: relative;
+}
+.Scooter h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Scooter p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Scooter .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+
+.Naked{width: 100%; height: 100vh;
+position: relative;
+}
+.Naked h1{position: absolute;
+top: 90px; left: 10px;
+font-size: 60px;}
+.Naked p{width: 90%;
+position: absolute;
+top: 20%; left: 10px;}    
+.Naked .swiper{position: absolute;
+      top: 40%; left: 50%;
+      transform: translateX(-50%);}
+
+
+
+.swiper {
+        width: 95%;
+        height: 55%;
+      }
+
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+.swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+.sw_B{width: 100%; height: 150px;
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      bottom: 0; left: 0;}
+
+.sw_W{width: 90%; height: auto;
+      position: absolute;
+      bottom: 50%;
+      left: 2%;
+      background-color: #333;}
+
+.sw_W h3{position: absolute;
+      bottom: 20%; left: 2%;  
+      font-size: 4vw;
+      }
+
+.sw_W p{
+      font-size: 2vw;
+      text-align: left;}
+
+.sw_3D{width: 200px; height: 80px;
+      background-color: #ED1C24;
+      line-height: 40px;
+      position: absolute; top: 0; right: 0;
+      }
+
+.sw_3D p{font-size: 40px;font-weight: 900; 
+      transition: 2s;}
+
+.sw_3D p:hover{color: #4B2E2A;}
+
+/*   푸터   */
+
+footer{
+      width: 94.8%; height: 310px;
+      background-color: #D3D3D3; 
+      padding: 20px; display: flex; 
+      flex-wrap: wrap; gap: 20px;
+      color: #333333;
+      z-index: 999;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      }
+
+.foot_p{width: 180px; height: auto;
+      position: absolute;
+      }
+
+.foot_p h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            font-weight: 900;
+            margin-left: 58px}
+.foot_p h4 img{margin-right: 10px;
+            width: 40px; height: auto;
+            font-weight: 900;}
+.foot_p li{color: #333333;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 10px;}
+
+.foot_c{width: 180px; height: auto;
+      position: absolute;
+      left: 200px;
+      }
+.foot_c h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            font-weight: 900;
+            }
+.foot_c1{text-align: center;}
+.foot_c p{color: #333333;
+            font-size: 15px;
+            margin-bottom: 10px;
+            font-weight: 800;
+            }
+
+.logo_F{width: 30%; height: auto;
+      position: absolute;
+      top: 50px; left: 350px;
+      opacity: 0.8;}
+
+.foot_s{
+      width: 15%; height: auto;
+      position: absolute;
+      right: 25%;}
+      
+.foot_s h4{font-size:20px; color:#333333;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 150px;
+            font-weight: 900;}
+
+.foot_s1{text-align: center;
+            display: flex;}
+
+.foot_s a{color: #333333;
+            font-size: 15spx;
+            margin-bottom: 10px;
+            font-weight: 800;
+            margin-right: 20px;}
+
+
+.foot_copy{width: 35%;
+            position: absolute;
+            bottom: 20%; left: 82%;
+            transform: translateX(-50%);}
+.foot_copy h5{
+            font-size: 15px; color: #333333;
+            opacity: 0.8;}         
+
+
+
+}/* 태블릿 */
+
+
+
+
+/* PC */
+@media all and (min-width: 1240px) {
+.f_M_section_pc{display: block;}
+.b_M_section_pc{display: block;}
+.b_M_section_motp{display: none;}
+.f_M_section_motp{display: none;}
+
+main{position: relative;overflow: hidden;}
+.b_M_section_pc{width: 100%; height: 100vh;
+                  }
+.b_M_section_pc img{width: 130%; height: 110%;
+                  object-fit: cover;
+                 }
+
+#section9 .f_M_section_pc{position: absolute;
+                        top: 0; left: 0;
+                        width: 105%; height: 100%; 
+                        background-image: url(../img/logohold1.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        
+                        }
+
+.cover{display: none;}
+.cover_pc{display: block;}
+
+.cover_pc .cover_world{width: 100%; height: 100vh;
+                        position: relative;
+                        z-index: none;
+                        }
+
+.cover_pc .cover_world img{width: 100%; height: auto;
+                        background-size: cover;}
+.cover_pc .cover_world h2{position: absolute;
+                        top: 150px; right: 50px;
+                        font-size: 70px;
+                        color: #333333;}
+.cover_pc .cover_world p{width: 800px; height: auto;
+                        position: absolute;
+                        top: 300px; right: 50px;
+                        font-size: 18px;
+                        text-align: right;
+                        color: #333333;
+                        font-weight: 700;}
+.cover_pc .cover_world p span{font-weight: 900;
+      color: #333333;}
+.cover_btn{width: 120px; height: 50px;
+      background-color: #ED1C24;
+      position: absolute;
+      top: 50%; left: 90%;
+      border-radius: 10px;}
+
+.cover_btn h4{text-align: center;
+      font-size:20px;
+      line-height:50px;transition: 2s;}
+
+.cover_btn h4:hover{color: #333333;}
+
+.cover_pc .cover_happy{width: 100%; height: 100vh;
+                        position: relative;
+                        margin-bottom: 20%;
+                        z-index: none;}
+
+.cover_pc .cover_happy img{width: 100%; height: auto;
+                        background-size: cover;}
+
+.cover_pc .cover_happy h2{position: absolute;
+                        top: 150px; left: 50px;
+                        font-size: 70px;}
+.cover_pc .cover_happy p{width: 900px; height: auto;
+                        position: absolute;
+                        top: 300px; left: 50px;
+                        font-size: 18px;;
+                        text-align: left;}
+.cover_pc .cover_happy p span{font-weight: 900;}
+
+
+.cover_happy .cover_btn{width: 120px; height: 50px;
+      background-color: #ED1C24;
+      position: absolute;
+      top: 50%; left: 3%;
+      border-radius: 10px;}
+.cover_happy .cover_btn h4{text-align: center;
+      font-size:20px;
+      line-height:50px;
+      color: #D3D3D3;
+      transition: 2s;}      
+
+.cover_happy .cover_btn h4:hover{color: #333333;}
+
+.CUB img{width: 100%; height: 200%;
+      }
+.CUB h1{position: absolute;
+      top: 100px; left:100px;
+      font-size: 70px;
+      }
+.CUB p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+      
+
+.Sports img{width: 150%; height: 150%;
+    }
+.Sports h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Sports p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+      
+.Tourer h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Tourer p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+
+.Cruiser h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Cruiser p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+
+.Adventure h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Adventure p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+
+.Scooter h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Scooter p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+
+.Naked h1{position: absolute;
+      top: 100px; left: 100px;
+      font-size: 70px;
+      }
+.Naked p{width: 80%;
+      position: absolute;
+      top: 200px; left: 100px;
+      font-size: 18px;}
+
+
+
+.swiper {
+        width: 70%;
+        height: 56%;
+        
+      }
+
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+.swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+
+.sw_B{width: 100%; height: 200px;}
+.sw_W h3{font-size: 3vw;
+      }
+.sw_W p{position: absolute;
+      top: 0; left: 20px;
+      }
+.sw_3D{width: 300px; height: 100px;
+      text-align: center;
+      }
+.sw_3D p{font-size: 50px;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translateX(-50%)
+      translateY(-50%);
+      }
+
+
+/*   푸터   */
+
+footer{
+      width: 95%; height: 310px;
+      background-color: #D3D3D3; 
+      padding: 20px; display: flex; 
+      flex-wrap: wrap; gap: 20px;
+      color: #333333;
+      z-index: 999;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      }
+
+.foot_p{width: 180px; height: auto;
+      position: absolute;
+      }
+
+.foot_p h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            font-weight: 900;
+            margin-left: 58px}
+.foot_p h4 img{margin-right: 10px;
+            width: 40px; height: auto;
+            font-weight: 900;}
+.foot_p li{color: #333333;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 10px;}
+
+.foot_c{width: 180px; height: auto;
+      position: absolute;
+      left: 250px;
+      }
+.foot_c h4{display: flex;
+            font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            font-weight: 900;
+            }
+.foot_c1{text-align: center;}
+.foot_c p{color: #333333;
+            font-size: 15px;
+            margin-bottom: 10px;
+            font-weight: 800;
+            }
+
+.logo_F{width: 20%; height: auto;
+      position: absolute;
+      top: 20px; left: 600px;
+      opacity: 1.2;}
+
+.foot_s{
+      width: 30%; height: auto;
+      position: absolute;
+      right: 20px;}
+      
+.foot_s h4{font-size:20px; color:#333333;
+            margin-bottom: 10px;
+            margin-left: 150px;
+            font-weight: 900;}
+
+.foot_s1{text-align: center;
+            display: flex;}
+
+.foot_s a{color: #333333;
+            font-size: 15spx;
+            margin-bottom: 10px;
+            font-weight: 800;
+            margin-right: 20px;}
+
+
+.foot_copy{width: 35%;
+            position: absolute;
+            bottom: 20%; left: 82%;
+            transform: translateX(-50%);}
+.foot_copy h5{
+            font-size: 15px; color: #333333;
+            opacity: 0.8;}   
+
+
+
+
+
+
+
+
+
+}/* PC */
